@@ -47,7 +47,8 @@ body {
     border-radius: 3px;
     margin-top: 30px;
 }
-main{
+
+main {
     margin-bottom: 100px;
 }
 
@@ -98,7 +99,7 @@ main p {
 
 
 
-.donatePlan-Title{
+.donatePlan-Title {
     font-size: 50px;
     font-weight: 700;
     color: #121212;
@@ -122,7 +123,8 @@ main p {
 
 .shelter-family {
     width: 100%;
-    background: rgba(255, 89, 89, 0.1);;
+    background: rgba(255, 89, 89, 0.1);
+    ;
     border-radius: 5px;
     text-align: left;
     padding: 30px;
@@ -137,23 +139,61 @@ main p {
     padding: 30px;
 }
 
-.contribut-section{
+.contribut-section {
     margin: 0 150px;
     display: flex;
     gap: 30px;
     align-items: center;
+    margin-bottom: 160px;
 
 }
 
-.half-width{
+.half-width {
     width: 50%;
 }
 
-.half-width img{
+.half-width img {
     width: 100%;
     height: 450px;
 }
 
-.donation-title{
+.donation-title {
     font-size: 40px;
+}
+
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4D6;
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+
+}
+
+.input-btn {
+    width: 40%;
+    height: 30px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #757575;
+
+}
+
+.submit-btn{
+    width: 20%;
+    height: 40px;
+    background: red;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    padding: 5px 10px ;
+    font-size: 24px;
+    color: white;
 }
