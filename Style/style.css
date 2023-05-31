@@ -161,7 +161,22 @@ main p {
     font-size: 40px;
 }
 
+.subscribe-area{
+    width: 100%;
+    margin: 0 150px;
+}
 
+.section-area p{
+   line-height: 1.5;
+}
+
+.upades-title{
+    font-size: 40px;
+    border-bottom: solid 2px red;
+    line-height: 1.5;
+    width: 320px;
+    margin: 0 auto;
+}
 .input-area {
     display: flex;
     justify-content: center;
@@ -196,4 +211,17 @@ main p {
     padding: 5px 10px ;
     font-size: 24px;
     color: white;
+}
+
+footer{
+    background-color: #0B0D17;
+    padding: 20px 150px;
+    text-align: center;
+    color: white;
+   
+}
+
+footer h1{
+    font-family: 'Lobster', cursive;
+    color: red;
 }
